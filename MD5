@@ -1,10 +1,10 @@
-d4cbf386670f66d5238fc30ba8b9e45e *DESCRIPTION
-06d3094d3c15bb2ed2fd165070d922a1 *NAMESPACE
-49d76c1a9da06ba0f50e2dc8399d4433 *R/functions.R
-fd6c83ab625baa0d4c08d58c71b65be7 *R/internal.R
-25c359da228eab155b80adaada66d3f2 *R/simulate-tracks.R
-f6f91edbe3dfd1796e37303f01e2b0bc *R/track-measures.R
-8c84ed432cc60f40ca7098599907919d *R/track-set-transformations.R
+5074ff25feca8477bf15204e683e177b *DESCRIPTION
+0bb18fd1decae6b8ba0ffe5cf9a55473 *NAMESPACE
+6e3a6dfcabac188d00d36f1adc03b480 *R/functions.R
+97ee09772ca456d46defb361da07259c *R/internal.R
+cb061e40cf2f11e608cff0d3c5164f0e *R/simulate-tracks.R
+2f3a3b72113fd81e2e3a37ac5ff689c0 *R/track-measures.R
+213028766cda244773e712e993a6dd1d *R/track-set-transformations.R
 daea84f7f365b330404db98d35ef7d5a *data/BCells.rda
 0577b85e7ee5db684a828f37a086a64a *data/Neutrophils.rda
 e1f7530b59ced34eb0116553952ee115 *data/TCells.rda
@@ -16,6 +16,7 @@ ae3627af8aa44c6e5c5a693946305e9f *man/TCells.Rd
 40368b823e1986efd22f812cb081cd89 *man/applyStaggered.Rd
 2dfb4bfe1fc133812f37c8e8acf99d7e *man/as.data.frame.tracks.Rd
 5b8a1d3c0d88ba67aece1c20dbea3f42 *man/as.list.tracks.Rd
+c66b6aaa4fba7964c21e2e7ba01b9752 *man/as.tracks.data.frame.Rd
 b2fc7f70ca6c2417d46462ef3b504044 *man/beaucheminTrack.Rd
 d0dc515fd99e89bedbfd889b0df065af *man/boundingBox.Rd
 15ae5559df0db6578002f24ffd228160 *man/brownianTrack.Rd
@@ -32,7 +33,7 @@ e612ee21581abb934f32b2d9089a94ca *man/plot.tracks.Rd
 23107d46c292c60f2f224fd5c7ac49c7 *man/plotTrackMeasures.Rd
 c47e50c0634bb19847ebed1cc63938b6 *man/prefixes.Rd
 c50c623968e8cd8307af5ba018ca6721 *man/projectDimensions.Rd
-df9a9af3ebb5b4633d0b7fb58cef5d12 *man/read.tracks.csv.Rd
+25aa9ca3fb3ef33990a4c2ea1cecccf6 *man/read.tracks.csv.Rd
 2d6c152c076bb3ce3c3314547462c732 *man/repairGaps.Rd
 6a2b6701032c5cd244b2fcfab97e2935 *man/selectTracks.Rd
 76f6d7af0a95c52ae333d87cef5527c8 *man/simulateTracks.Rd
@@ -45,8 +46,12 @@ ebfd73449f383a169c591d534efa55c2 *man/sort.tracks.Rd
 4e51b347d24914aff050177172728e57 *man/tracks.Rd
 d1de84e5ac6ee27dfd15ca21ec799699 *man/wrapTrack.Rd
 c7fdfeedf9f705e60c58e4711bd288c5 *tests/testthat.R
+9626efd311d781cbd14eaa8b594b32eb *tests/testthat/ref_tracks.RData
+3a1f4ff5294d5270ebdb5cb11bf593e6 *tests/testthat/ref_tracks.csv
+0d67651b428db611174bac12ca6f1635 *tests/testthat/ref_tracks_blank_line_sep.csv
 f538cca77e9c3d0dc9b5413fb7db4382 *tests/testthat/test1D.R
 461cd529ad784a3ca7fdf962ccfc05a0 *tests/testthat/testBasics.R
 500d4b0e23ddd67e6cd92f7f2f0130c1 *tests/testthat/testBorderCases.R
+b75f6542399538bca5f5002ce5eb2310 *tests/testthat/testLoadingTracks.R
 00d3c81efedfad132def4e4a49035203 *tests/testthat/testNumerics.R
 91474e9602ec333e23ca3fc4e3e0b418 *tests/testthat/testSim.R
